@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>TimeCalculator</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- TimeCalculator references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+</head>
+<body>
+    <div id="time-calc-main-content" class="clear-fix">
+        <div id="show-hide-time" data-win-control="WinJS.UI.ToggleSwitch" data-win-options="{id:'show-hide-time', title:'Toggle time control', checked:true}"></div>
+
+        <div id="menu-content">
+            <button id="open-button">Menu</button>
+            <div id="menu-id" data-win-control="WinJS.UI.Menu", data-win-options="{anchor:'open-button'}">
+                <button data-win-control="WinJS.UI.MenuCommand" data-win-options="{id:'calculate-days-button',label:'Calculate Days'}"></button>
+                <button data-win-control="WinJS.UI.MenuCommand" data-win-options="{id:'calculate-hours-button',label:'Calculate Hours'}"></button>
+                <button data-win-control="WinJS.UI.MenuCommand" data-win-options="{id:'calculate-hours-and-days-button',label:'Calculate Hours and Days'}"></button>                
+            </div>
+
+        </div>
+        
+        <div id="from-time">
+            <h2>From</h2>
+            <div><h3>Time</h3><div id="time-picker-1" data-win-control="WinJS.UI.TimePicker"></div></div>
+            <div><h3>Date</h3><div id="date-picker-1" data-win-control="WinJS.UI.DatePicker"></div></div>
+        </div>
+        <div id="to-time">
+            <h2>To</h2>        
+            <div><h3>Time</h3><div id="time-picker-2" data-win-control="WinJS.UI.TimePicker" ></div></div>
+            <div><h3>Date</h3><div id="date-picker-2" data-win-control="WinJS.UI.DatePicker"></div></div>
+        </div>
+    </div>
+    <div id="content"></div>
+</body>
+</html>
