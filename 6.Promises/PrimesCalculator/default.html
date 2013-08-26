@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PrimesCalculator</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- PrimesCalculator references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+   
+    <!--<script src="js/default.js"></script>-->
+    <script src="js/primesWorker.js"></script>
+    <script src="js/PrimesCalculator.js"></script>
+</head>
+<body>
+    <!--<form>-->
+    <fieldset>
+        <legend>Calculate prime numbers up to given by you number:</legend>
+        <input id="number" type="number"/>
+        <button id="calculate-primes-to">Calculate numbers to:</button>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Calculate prime numbers from to and first N (optional)</legend>
+        <label for="firstNumber">First number:</label>
+        <input id="firstNumber" type="number" />
+
+        <label for="secondNumber">Second number:</label>
+        <input id="secondNumber" type="number" />
+
+        <label for="secondNumber">Stop when calculated first N numbers (optional):</label>
+        <input id="count" type="number" />
+        <button id="calculate-primes-from-to">Calculate numbers from to:</button>
+            
+    </fieldset>
+    <!--</form> -->   
+    <p id="content">Content Goes here</p>
+</body>
+</html>
