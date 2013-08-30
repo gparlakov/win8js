@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>_1.PrimeNumbersCalculatorWithCaching</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- _1.PrimeNumbersCalculatorWithCaching references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="js/primesWorker.js"></script>
+    <script src="js/PrimesCalculator.js"></script>
+</head>
+<body>
+    <h3>Count of workers</h3>
+    <select id="max-workers-count">
+        <optgroup label="default">
+            <option value="3">3</option>
+        </optgroup>
+        <optgroup label="other">
+            <option label="4" value="4">4</option>
+            <option label="5" value="5">5</option>
+            <option label="6" value="6">6</option>
+        </optgroup>
+    </select>
+    <fieldset>
+        <legend>Calculate prime numbers up to given by you number:</legend>
+        <input id="number" type="number"/>
+        <button id="calculate-primes-to">Calculate numbers to:</button>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Calculate prime numbers from to and first N (optional)</legend>
+        <label for="firstNumber">First number:</label>
+        <input id="firstNumber" type="number" />
+
+        <label for="secondNumber">Second number:</label>
+        <input id="secondNumber" type="number" />
+
+        <label for="secondNumber">Stop when calculated first N numbers (optional):</label>
+        <input id="count" type="number" />
+        <button id="calculate-primes-from-to">Calculate numbers from to:</button>
+            
+    </fieldset>
+    
+    <p id="content"></p>
+</body>
+</html>

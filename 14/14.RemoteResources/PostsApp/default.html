@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>PostsApp</title>
+
+    <!-- WinJS references -->
+    <link href="//Microsoft.WinJS.1.0/css/ui-dark.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.1.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.1.0/js/ui.js"></script>
+
+    <!-- PostsApp references -->
+    <link href="/css/default.css" rel="stylesheet" />
+    <script src="/js/default.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/data-model.js"></script>
+</head>
+
+<body>
+    <div id="post-input-form">
+            <label for="content">Content: </label>
+            <input id="post-content" type="text" />
+            <label for="post-author">Author: </label>
+            <input id="post-author" type="text" />
+                    
+            <button id="post-create">Post</button>           
+    </div>
+
+    <div id="post-template-container" data-win-control="WinJS.Binding.Template">
+        <div class="computer-template">            
+            <p>"<span data-win-bind="innerText: content"></span>"</p>
+               
+            <p>by: <span data-win-bind="innerText: author"></span></p>                       
+        </div>
+    </div>
+    <button id="get-posts">Get All Posts</button>
+    
+    <div data-win-control="WinJS.UI.ListView"
+        data-win-options="{
+            itemDataSource: Data.posts.dataSource,
+            itemTemplate: select('#post-template-container')
+        }">
+    </div>
+</body>
+</html>

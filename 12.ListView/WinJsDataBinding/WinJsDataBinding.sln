@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "ListViewRepeater", "RepeaterControl\ListViewRepeater.jsproj", "{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|ARM.Build.0 = Debug|ARM
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|ARM.Deploy.0 = Debug|ARM
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|x64.ActiveCfg = Debug|x64
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|x64.Build.0 = Debug|x64
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|x64.Deploy.0 = Debug|x64
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|x86.ActiveCfg = Debug|x86
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|x86.Build.0 = Debug|x86
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Debug|x86.Deploy.0 = Debug|x86
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|ARM.ActiveCfg = Release|ARM
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|ARM.Build.0 = Release|ARM
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|ARM.Deploy.0 = Release|ARM
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|x64.ActiveCfg = Release|x64
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|x64.Build.0 = Release|x64
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|x64.Deploy.0 = Release|x64
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|x86.ActiveCfg = Release|x86
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|x86.Build.0 = Release|x86
+		{3712523E-BFD4-4DF4-BCC1-DDCC6C0515DC}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
